@@ -238,6 +238,10 @@ Nüüd peaks kood välja nägema nii:
 
                         Console.WriteLine("Võtsid laualt võtme");
                     }
+                    else
+                    {
+                    	Console.WriteLine("Laual pole enam võtit");
+                    }
                 }
                 else if (valik == "U")
                 {
