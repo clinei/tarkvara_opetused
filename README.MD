@@ -294,7 +294,12 @@ if (valik == "U")
 ```
 
 Asukohad on algus, uks ja laud.
-Algusesse tagasi ei pea pääsema, seega selle jaoks asukoha vahetuse valikuid ei pea olema.
+
+Algusest saab minna ukse või laua juurde.
+
+Ukse juurest saab minna laua juurde ning vastupidi.
+
+Algusesse tagasi minna pole vaja.
 
 Soovitus: kohe peale 
 ```csharp
