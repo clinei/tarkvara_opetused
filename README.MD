@@ -274,7 +274,7 @@ Siiani loodud programmi saame täiendada näiteks järgmistel viisidel:
 
 Võtit saab laualt võtta alles siis kui on ringi vaadatud (uus tegevus, algne olukord ning tingimus)
 
-Loetavust saab parandada eristades valikute esitamist, sisendi küsimist ning tulemusest teavitamist tähemärkidega fraasi alguses (`+++ Mis teed?`, `### Uks on lukus`) või visuaalselt eraldades, asetades `Console.WriteLine()` vastavatesse kohtadesse.
+Loetavust saab parandada eristades valikute esitamist, sisendi küsimist ning tulemusest teavitamist. Seda saab teha tähemärkidega fraasi alguses (`+++ Mis teed?`, `### Uks on lukus`) või neid tühjade ridadega eraldades, asetades `Console.WriteLine()` vastavatesse kohtadesse.
 
 Võimalikud valikud sõltuvad asukohast.
 
