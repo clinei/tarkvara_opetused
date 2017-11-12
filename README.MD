@@ -134,7 +134,7 @@ Kood peaks praegu välja nägema selline:
             }
 
             Console.WriteLine("Põgenesid!");
-            Console.ReadKey(true);
+            Console.ReadKey();
         }
 ```
 
@@ -239,7 +239,7 @@ Nüüd peaks kood välja nägema nii:
             }
 
             Console.WriteLine("Põgenesid!");
-            Console.ReadKey(true);
+            Console.ReadKey();
         }
 ```
 
