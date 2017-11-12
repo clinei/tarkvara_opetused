@@ -97,13 +97,13 @@ if (valik == "V")
 {
     votiOlemas = true;
 
-    Console.WriteLine("Võtsid laualt võtme");
+    Console.WriteLine("Võtsid laualt võtme");  // uus
 }
 else if (valik == "U")
 {
     uksLukus = false;
 
-    Console.WriteLine("Tegid ukse lahti");
+    Console.WriteLine("Tegid ukse lahti");  // uus
 }
 ```
 
@@ -112,7 +112,7 @@ Lisame uue muutuja `valik` algsesse olukorda:
 bool uksLukus = true;
 bool votiOlemas = false;
 
-string valik = ""; // uus
+string valik = "";  // uus
 
 while (uksLukus)
 ```
