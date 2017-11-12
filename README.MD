@@ -90,6 +90,22 @@ else if (valik == "U")
     uksLukus = false;
 }
 ```
+ja meid tulemusest teatama:
+
+```csharp
+if (valik == "V")
+{
+    votiOlemas = true;
+
+    Console.WriteLine("Võtsid laualt võtme");
+}
+else if (valik == "U")
+{
+    uksLukus = false;
+
+    Console.WriteLine("Tegid ukse lahti");
+}
+```
 
 Lisame uue muutuja `valik` algsesse olukorda:
 ```csharp
