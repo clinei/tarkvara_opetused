@@ -1,7 +1,7 @@
 ##### Julgustav eelsõna
 Käesolevas juhendis on asju millest ei pruugi kohe aru saada.
 Sel juhul soovitan lugeda eelnevat teksti uuesti
-ning kui see ei aita, lihtsalt jätkake lugemist.
+ning kui see ei aita siis lihtsalt jätkake lugemist.
 
 Kui peale mitmekordset lugemist pole küsimus vastust saanud,
 siis kirjutage Facebooki kommentaar.
