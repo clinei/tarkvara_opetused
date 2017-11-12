@@ -268,7 +268,7 @@ Nagu alguses mainitud, võimaldab tarkvara simuleerida olukordi.
 
 Olekumuutused sõltuvad reaalelus lugematul hulgal asjadest.
 
-Tarkvara arendajatena on meie ülesanne seda üldistada soovitud täpsusastmele.
+Tarkvara arendajatena on meie ülesanne üldistada seda soovitud täpsusastmele.
 
 Siiani loodud programmi saame täiendada näiteks järgmistel viisidel:
 
