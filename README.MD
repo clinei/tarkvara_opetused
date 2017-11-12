@@ -8,11 +8,10 @@ siis kirjutage Facebooki kommentaar.
 
 ## Mis on tarkvara arendus?
 Tarkvara võimaldab meil simuleerida olukordi.
+
 Programmeerides määrame algse olukorra ning millal ja kuidas see muutub.
 
-Kujutame ette olukorda, kus ärkate mingis kõhedas ruumis 
-ning soovite sealt lahkuda, kuid uks on lukus ja võtit teil pole.
-[](siin võiks illustratsioon olla)
+Kujutame ette olukorda, kus ärkate mingis kõhedas ruumis ning soovite sealt lahkuda, kuid uks on lukus ja võtit teil pole.
 
 Kirjeldame seda järgneva koodiga: 
 ```csharp
@@ -24,7 +23,9 @@ Kirjeldame seda järgneva koodiga:
 ```
 
 Algne olukord on siis ukse lukus olemine ja võtme puudumine.
+
 Oletame, et te ei lõpeta enne kui olete ukse lahti saanud.
+
 Seda kirjeldame while tsükliga:
 ```csharp
         static void Main(string[] args)
@@ -74,8 +75,6 @@ Console.WriteLine("U: Teen ukse lahti");
 peate saama vastata:
 ```csharp
 valik = Console.ReadKey(true).KeyChar.ToString().ToUpper();
-
-// lihtsalt kopeerige, praegu ei pea kõike mõistma
 ```
 
 programm peab vastusest aru saama:
@@ -91,7 +90,7 @@ else if (valik == "U")
 ```
 
 Lisame uue muutuja `valik` algsesse olukorda:
-```
+```csharp
 bool uksLukus = true;
 bool votiOlemas = false;
 
@@ -140,7 +139,9 @@ Kood peaks praegu välja nägema selline:
 Vajutades klahvi **F5** saate proovida **V** ja **U** tähtede vajutamist.
 
 Olukorrad ei muutu aga niisama, vaid ainult teatud tingimustel.
+
 Ukse lahti saamiseks on meil vaja võtit.
+
 Selleks muudame olemasolevat koodi:
 ```csharp
 else if (valik == "U")
@@ -158,8 +159,7 @@ else if (valik == "U")
 }
 ```
 
-Kuna võtit saab võtta ainult siis kui see on veel laual,
-muudame valikute esitamise koodi:
+Kuna võtit saab võtta ainult siis kui see on veel laual, muudame valikute esitamise koodi:
 ```csharp
 Console.WriteLine("Mis teed?");
 
@@ -171,7 +171,7 @@ if (votiOlemas == false)
 Console.WriteLine("U: Teen ukse lahti");
 ```
 
-ning muudame valikute töötlemise koodi:
+ning valikute töötlemise koodi:
 ```csharp
 if (valik == "V")
 {
@@ -243,16 +243,19 @@ Nüüd peaks kood välja nägema nii:
 
 ## Edasi arendamise võimalused
 Nagu alguses mainitud, võimaldab tarkvara simuleerida olukordi.
-Reaalelus sõltuvad olekumuutused lugematul hulgal asjadest.
+
+Olekumuutused sõltuvad reaalelus lugematul hulgal asjadest.
+
 Tarkvara arendajatena on meie ülesanne seda üldistada soovitud täpsusastmele.
 
-Siiani loodud programmi saab täiendada näiteks järgmistel viisidel:
+Siiani loodud programmi saame täiendada näiteks järgmistel viisidel:
 
 Võtit saab laualt võtta alles siis kui on ringi vaadatud (uus tegevus, algne olukord ning tingimus)
 
-Loetavuse parandamiseks saab eristada valikute esitamist, sisendi küsimist ning tulemusest teavitamist tähemärkidega fraasi alguses (`+++ Mis teed?`, `### Uks on lukus`) või visuaalse eraldadamisega asetades `Console.WriteLine()` vastavatesse kohtadesse
+Loetavuse parandamiseks saab eristada valikute esitamist, sisendi küsimist ning tulemusest teavitamist tähemärkidega fraasi alguses (`+++ Mis teed?`, `### Uks on lukus`) või visuaalse eraldadamisega asetades `Console.WriteLine()` vastavatesse kohtadesse.
 
 Võimalikud valikud sõltuvad asukohast.
+
 Asukoha vahetus on üks valikutest.
 
 Uus algne olukord:
@@ -285,6 +288,7 @@ pane
 ning ümbritse ülejäänud kood loogeliste sulgudega.
 
 Uue asukoha eristamiseks lisa peale olemasolevat koodi `else if` kus võrdled praegust asukohta valikus määratud asukohaga.
+
 Peale seda kopeeri eelneva asukoha kood ning kohanda esitatavad valikud ja nende tulemused.
 
 Jõudu!
