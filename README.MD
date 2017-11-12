@@ -44,6 +44,7 @@ Seda kirjeldame while tsükliga:
 
 Nüüd ütleme, et vaatate toas ringi ja leiate lähedalolevalt laualt võtme, 
 avate sellega ukse ning põgenete.
+
 Oleku muutused on siis võtme laualt võtmine ning ukse avamine:
 ```csharp
         static void Main(string[] args)
@@ -64,6 +65,7 @@ Oleku muutused on siis võtme laualt võtmine ning ukse avamine:
 ```
 
 Te olete aga mõtlev ja otsustav olend ning programm võiks seda peegeldada.
+
 Selleks peab programm esitama võimalikud valikud:
 ```csharp
 Console.WriteLine("Mis teed?");
