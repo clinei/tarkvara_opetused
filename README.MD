@@ -3,9 +3,6 @@ Käesolevas juhendis on asju millest ei pruugi kohe aru saada.
 Sel juhul soovitan lugeda eelnevat teksti uuesti
 ning kui see ei aita siis lihtsalt jätkake lugemist.
 
-Kui peale mitmekordset lugemist pole küsimus vastust saanud,
-siis kirjutage Facebooki kommentaar.
-
 ## Mis on tarkvara arendus?
 Tarkvara võimaldab meil simuleerida olukordi.
 
