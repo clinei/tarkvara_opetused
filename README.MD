@@ -3,6 +3,8 @@ Käesolevas juhendis on asju millest ei pruugi kohe aru saada.
 Sel juhul soovitan lugeda eelnevat teksti uuesti
 ning kui see ei aita siis lihtsalt jätkake lugemist.
 
+Eeldan, et omate mingit inglise keele oskust ja olete installinud Visual Studio ja avanud uue projekti.
+
 ## Mis on tarkvara arendus?
 Tarkvara võimaldab meil simuleerida olukordi.
 
@@ -314,5 +316,7 @@ ning ümbritse ülejäänud kood loogeliste sulgudega.
 Uue asukoha eristamiseks lisa peale olemasolevat koodi `else if` kus võrdled praegust asukohta valikus määratud asukohaga.
 
 Peale seda kopeeri eelneva asukoha kood ning kohanda esitatavad valikud ja nende tulemused.
+
+Kui hätta jääd, võid vaadata rohkem edasi arendatud ja inglisekeelset versiooni [siit](https://github.com/clinei/tpt_kodutood/blob/master/02_choice_game/02_choice_game/Program.cs).
 
 Jõudu!
